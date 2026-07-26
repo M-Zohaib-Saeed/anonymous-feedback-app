@@ -22,9 +22,9 @@ async function dbConnect(): Promise<void> {
     console.log('Database connected successfully');
   } catch (error) {
     console.error('Database connection failed:', error);
-
+    throw new Error('Failed to connect to database');
     // Graceful exit in case of a connection error
-    process.exit(1);
+   // process.exit(1);
   }
 }
 
