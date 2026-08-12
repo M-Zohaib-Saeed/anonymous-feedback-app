@@ -27,7 +27,7 @@ const Navbar = () => {
               Welcome, <span className="font-medium text-white">{user?.username || user?.email}</span>
             </span>
             <Button
-              onClick={() => signOut()}
+              onClick={() => signOut({ callbackUrl: '/' })}
               variant="secondary"
               size="sm"
               className="rounded-full gap-1.5"
