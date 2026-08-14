@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ai-sdk/groq": "^4.0.16",
+    "@ai-sdk/react": "^4.0.67",
     "@base-ui/react": "^1.6.0",
     "@hookform/resolvers": "^5.5.7",
     "@radix-ui/react-label": "^2.1.15",
